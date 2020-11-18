@@ -7,13 +7,7 @@ class Result extends StatelessWidget {
   final int totalScore;
 
   Result(this.resetHandler, this.totalScore);
-
-  var results = [
-    "Pretty boring.",
-    "Not my type.",
-    "You're an interesting person.",
-    "You're awesome, lemme get yo digits!"
-  ];
+  
 
   String get resultPhrase {
     var resultText = 'you did it!';
